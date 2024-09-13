@@ -1,0 +1,13 @@
+{
+  "name": "livedeco",
+  "private": true,
+  "workspaces": [
+    "editor"
+  ],
+  "scripts": {
+    "dev:editor": "npm run dev -w @livedeco/editor",
+    "build:editor": "npm run build -w @livedeco/editor",
+    "dev:crdt": "cd crdt-automerge && cargo run",
+    "build:crdt": "cd crdt-automerge && cargo build --release"
+  }
+}

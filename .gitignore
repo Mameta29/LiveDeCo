@@ -1,0 +1,12 @@
+# Editor-specific ignores
+editor/node_modules/
+editor/.next/
+editor/out/
+
+# CRDT-specific ignores
+crdt-automerge/target/
+crdt-automerge/**/*.rs.bk
+
+# General ignores
+.DS_Store
+*.log
